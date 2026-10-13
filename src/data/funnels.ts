@@ -16,9 +16,9 @@ const funnel = (
   desc: string,
 ): Funnel => ({
   file: `placeholder-funnel-${n}.html`,
-  label: `Sample Project — ${label}`,
+  label: `Sample Funnel ${n} — ${label}`,
   tag,
-  desc: `DEMONSTRATION ONLY. ${desc}`,
+  desc: `Portfolio demonstration only. ${desc}`,
 })
 
 const site = (
@@ -27,9 +27,9 @@ const site = (
   desc: string,
 ): Funnel => ({
   file: `placeholder-site-${n}.html`,
-  label: `Sample Website — ${label}`,
+  label: `Website Sample ${n} — ${label}`,
   tag: 'Website',
-  desc: `DEMONSTRATION ONLY. ${desc}`,
+  desc: `Portfolio demonstration only. ${desc}`,
   dir: 'samples',
 })
 
@@ -38,73 +38,73 @@ export const gymFunnel: Funnel[] = [
     '01',
     'Customer Support Request',
     'Lead Capture',
-    'A fictional help page that collects a customer's name, contact details, and support question.',
+    'A sample customer support request page for collecting customer details and questions.',
   ),
   funnel(
     '02',
-    'Service Inquiry',
-    'Checkout',
-    'A fictional service inquiry page that explains next steps before a customer submits a request.',
+    'Virtual Assistant Inquiry',
+    'Lead Capture',
+    'A sample inquiry page for people interested in virtual assistant services.',
   ),
   funnel(
     '03',
     'Technical Help Intake',
     'Lead Capture',
-    'A fictional technical support form for reporting an issue and describing troubleshooting already attempted.',
+    'A sample technical support form for describing issues and troubleshooting attempts.',
   ),
 ]
 
 export const bookingFunnel: Funnel[] = [
   funnel(
     '04',
-    'Support Consultation',
+    'Support Consultation Booking',
     'Booking',
-    'A fictional appointment page where visitors can review consultation details and request a time.',
+    'A sample page for requesting a customer support consultation.',
   ),
   funnel(
     '05',
-    'Virtual Assistant Discovery Call',
-    'Booking',
-    'A fictional booking page for discussing administrative support and customer communication needs.',
+    'Virtual Assistant Services',
+    'Lead Capture',
+    'A sample landing page presenting virtual assistant services.',
   ),
   funnel(
     '06',
-    'Customer Follow-Up',
-    'Booking',
-    'A fictional follow-up scheduling page designed to help customers choose a convenient contact time.',
+    'Customer Support Help Center',
+    'Lead Capture',
+    'A sample help center providing customer support information and guidance.',
   ),
 ]
 
 export const websiteFunnel: Funnel[] = [
   site(
     '01',
-    'Technical Support Center',
-    'A fictional support website with troubleshooting topics, common questions, and contact guidance.',
+    'ClearPath Technical Support',
+    'A fictional technical support website focused on troubleshooting and customer assistance.',
   ),
   site(
     '02',
-    'Fintech Help Desk',
-    'A fictional financial technology help website covering account access, payment status, and common support questions.',
+    'Bloom Assist',
+    'A fictional virtual assistant agency website presenting administrative and customer support services.',
   ),
   site(
     '03',
-    'Virtual Assistant Services',
-    'A fictional service website presenting email management, data entry, and customer inquiry assistance.',
+    'TechBridge Support',
+    'A fictional technical support and customer service website.',
   ),
   site(
     '04',
-    'AI Application Help',
-    'A fictional help website explaining how users can report application issues and find basic guidance.',
+    'NexaAssist',
+    'A fictional virtual assistant and administrative services website.',
   ),
   site(
     '05',
-    'Online Store Customer Care',
-    'A fictional online store support website with order questions, delivery information, and return guidance.',
+    'TaskFlow Pro',
+    'A fictional productivity and project management product website.',
   ),
   site(
     '06',
-    'Community Safety Help',
-    'A fictional community support website explaining reporting options, platform rules, and escalation guidance.',
+    'GreenDesk Solutions',
+    'A fictional remote business support services website.',
   ),
 ]
 
