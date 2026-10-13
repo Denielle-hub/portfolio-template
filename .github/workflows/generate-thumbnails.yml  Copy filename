@@ -1,4 +1,4 @@
-
+# Workflow for generating portfolio thumbnails
 name: Generate Portfolio Thumbnails
 
 on:
