@@ -1,8 +1,6 @@
-
 /**
  * YOUR IDENTITY
  * Profile information for John Denielle Perez.
- * Keep the original photo paths until the resume photo is added.
  */
 
 import { Briefcase, SealCheck, Clock, type Icon } from '@/components/slab'
@@ -40,22 +38,22 @@ export const profile: Profile = {
   handle: '@johndenielleperez',
   role: 'Technical Support | Customer Experience | Virtual Assistant',
   avatarSrc: '/avatar.svg',
-  verifiedLabel: 'Professional profile',
+  verifiedLabel: 'Professional Profile',
   email: 'johndenielleperez@gmail.com',
   location: 'Cavite, Philippines | UTC+8',
   stats: [
     { value: '2+ Years', label: 'Customer Support', Icon: Briefcase },
-    { value: '3 Roles', label: 'Customer-Focused Experience', Icon: SealCheck },
+    { value: '3 Areas', label: 'Technical, Financial & AI Support', Icon: SealCheck },
     { value: 'UTC+8', label: 'Philippines Timezone', Icon: Clock },
   ],
   displayName: {
-    line1: 'Technical support.',
-    line2: 'Done with care.',
+    line1: 'Support that works.',
+    line2: 'Service that cares.',
   },
   hero: {
-    body: "I'm a technical support and customer experience professional with experience supporting AI-powered applications, fintech customers, QuickBooks users, and online platform safety. I focus on clear communication, practical troubleshooting, and careful follow-through.",
+    body: "I'm a customer-focused technical support professional with experience helping Intuit QuickBooks users with account access, payments, payroll, and basic troubleshooting. I also have experience reviewing AI responses, supporting workmates, and helping maintain safer online platforms. I value clear communication, practical problem-solving, and reliable customer service.",
     portraitSrc: '/avatar.svg',
-    portraitAlt: 'Profile photo of John Denielle Perez',
+    portraitAlt: 'Profile illustration for John Denielle Perez',
   },
   socials: [
     {
