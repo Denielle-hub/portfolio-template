@@ -3,6 +3,11 @@ name: Generate Portfolio Thumbnails
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - portfolio-redesign
+    paths:
+      - '.github/workflows/generate-thumbnails.yml'
 
 permissions:
   contents: write
