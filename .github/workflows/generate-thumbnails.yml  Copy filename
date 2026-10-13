@@ -1,0 +1,53 @@
+
+name: Generate Portfolio Thumbnails
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    if: github.ref == 'refs/heads/portfolio-redesign'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out portfolio-redesign
+        uses: actions/checkout@v4
+        with:
+          ref: portfolio-redesign
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Prepare thumbnail folders
+        run: |
+          mkdir -p public/funnels/thumbs
+          mkdir -p public/samples/thumbs
+          mkdir -p public/home
+          mkdir -p public/placeholders
+
+      - name: Generate thumbnails
+        run: node scripts/make-thumbs.mjs
+
+      - name: Save generated images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/funnels/thumbs public/samples/thumbs public/home public/placeholders
+          if ! git diff --cached --quiet; then
+            git commit -m "Generate portfolio thumbnails"
+            git push origin HEAD:portfolio-redesign
+          else
+            echo "No thumbnail changes to save."
+          fi
