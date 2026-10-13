@@ -1,49 +1,153 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Placeholder Website 05</title><style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:#F5F0E8;color:#1C1917;line-height:1.5}
-a{color:inherit;text-decoration:none}
-.wrap{max-width:1120px;margin:0 auto;padding:0 32px}
-nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
-.logo{font-weight:800;letter-spacing:-.02em;font-size:18px}
-.logo b{color:#C2410C}
-.links{display:flex;gap:28px;font-size:14px;color:#78716C}
-.btn{display:inline-block;background:#C2410C;color:#F5F0E8;font-weight:700;font-size:15px;padding:14px 26px;border-radius:999px}
-.btn--ghost{background:transparent;color:#1C1917;border:1px solid #78716C66}
-.tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#C2410C;margin-bottom:18px}
-h1{font-size:clamp(40px,6vw,72px);line-height:1.02;letter-spacing:-.035em;font-weight:800;max-width:14ch}
-h2{font-size:clamp(28px,3.4vw,40px);letter-spacing:-.02em;line-height:1.1;margin-bottom:14px}
-p.lede{font-size:18px;color:#78716C;max-width:46ch;margin:22px 0 32px}
-.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;padding:56px 0 80px}
-.shot{aspect-ratio:4/5;border-radius:24px;background:
-  repeating-linear-gradient(135deg,#FFFFFF 0 14px,#F5F0E8 14px 28px);
-  border:1px solid #78716C33;display:grid;place-items:center;text-align:center;padding:24px;color:#78716C;font-size:14px}
-.shot strong{display:block;color:#1C1917;font-size:16px;margin-bottom:6px}
-.row{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:24px 0 80px}
-.card{background:#FFFFFF;border:1px solid #78716C22;border-radius:20px;padding:28px}
-.card .n{font-size:13px;font-weight:700;color:#C2410C;margin-bottom:26px}
-.card h3{font-size:20px;margin-bottom:8px}
-.card p{color:#78716C;font-size:15px}
-.band{background:#FFFFFF;border-radius:28px;padding:56px;display:grid;grid-template-columns:1fr auto;gap:32px;align-items:center;margin-bottom:80px}
-.quote{font-size:24px;line-height:1.35;max-width:40ch}
-.who{margin-top:16px;color:#78716C;font-size:14px}
-.form{background:#FFFFFF;border-radius:24px;padding:32px;display:grid;gap:12px}
-.field{height:48px;border-radius:12px;border:1px solid #78716C44;padding:0 16px;display:flex;align-items:center;color:#78716C;font-size:14px}
-footer{border-top:1px solid #78716C33;padding:28px 0 40px;color:#78716C;font-size:13px;display:flex;justify-content:space-between}
-@media (max-width:760px){.hero,.band{grid-template-columns:1fr}.row{grid-template-columns:1fr}.links{display:none}}
-</style></head>
-<body><div class="wrap">
-<nav><span class="logo">Placeholder<b>.</b></span>
-<span class="links"><a href="#">PLACEHOLDER</a><a href="#">PLACEHOLDER</a><a href="#">PLACEHOLDER</a></span>
-<a class="btn" href="#">PLACEHOLDER</a></nav>
 
-<section class="hero"><div>
-<span class="tag">PLACEHOLDER Website 05</span>
-<h1>Tell me what to put here.</h1>
-<p class="lede">PLACEHOLDER - swap this page for a website you built. One line on who it was for and what it does.</p>
-<a class="btn" href="#">PLACEHOLDER CTA</a> <a class="btn btn--ghost" href="#">Secondary</a>
-</div><div class="shot"><div><strong>PLACEHOLDER IMAGE</strong>Your hero photo or product shot</div></div></section><div class="row"><div class="card"><div class="n">01</div><h3>PLACEHOLDER</h3><p>Tell me what to put here - a benefit, a step, or a feature.</p></div><div class="card"><div class="n">02</div><h3>PLACEHOLDER</h3><p>Tell me what to put here - a benefit, a step, or a feature.</p></div><div class="card"><div class="n">03</div><h3>PLACEHOLDER</h3><p>Tell me what to put here - a benefit, a step, or a feature.</p></div></div><div class="band"><div><p class="quote">"PLACEHOLDER - a short testimonial from the client this page was built for."</p>
-<p class="who">PLACEHOLDER NAME, PLACEHOLDER COMPANY</p></div><a class="btn" href="#">PLACEHOLDER</a></div>
-<footer><span>&copy; PLACEHOLDER Website 05</span><span>Replace this file: public/samples/</span></footer>
-</div></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TaskFlow Pro | Work Smarter Together</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#F5F0E8;--ink:#1C1917;--muted:#78716C;--accent:#C2410C;--white:#FFFFFF;--line:#E7DDD0;--green:#D9F99D}
+body{font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 28px}
+nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+.logo{font-size:22px;font-weight:850;letter-spacing:-1px}
+.logo span{color:var(--accent)}
+.links{display:flex;gap:26px;color:var(--muted);font-size:14px}
+.btn{display:inline-block;background:var(--accent);color:white;font-weight:750;font-size:14px;padding:13px 22px;border-radius:9px}
+.btn--ghost{background:transparent;color:var(--ink);border:1px solid #78716C66}
+.tag{display:inline-block;font-size:11px;font-weight:850;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent);margin-bottom:18px}
+h1{font-size:clamp(42px,6vw,70px);line-height:1.04;letter-spacing:-2.8px;max-width:620px}
+h2{font-size:clamp(29px,3.7vw,43px);line-height:1.13;letter-spacing:-1.4px}
+.lede{font-size:17px;color:var(--muted);max-width:470px;margin:22px 0 30px}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;padding:65px 0 90px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.note{font-size:12px;color:var(--muted);margin-top:20px}
+.preview{background:#E8DED0;border:1px solid #D7C8B7;border-radius:22px;padding:23px;transform:rotate(1deg)}
+.board{background:white;border:1px solid var(--line);border-radius:15px;padding:20px;box-shadow:0 20px 45px #5C403310}
+.board-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:20px}
+.board-head strong{font-size:15px}
+.pill{font-size:10px;font-weight:800;background:#FCE7D9;color:#9A3412;border-radius:999px;padding:5px 9px}
+.progress{height:6px;background:#F0E7DC;border-radius:99px;overflow:hidden;margin-bottom:22px}
+.progress span{display:block;width:72%;height:100%;background:var(--accent);border-radius:99px}
+.task{display:flex;gap:11px;align-items:center;padding:13px 0;border-bottom:1px solid #F0E7DC}
+.check{width:21px;height:21px;border:1px solid #D6C9BA;border-radius:6px;display:grid;place-items:center;font-size:12px;flex-shrink:0}
+.check.done{background:var(--green);border-color:var(--green)}
+.task strong{display:block;font-size:12px}
+.task small{font-size:10px;color:var(--muted)}
+.avatar{margin-left:auto;width:27px;height:27px;display:grid;place-items:center;background:#FDE68A;border-radius:50%;font-size:10px;font-weight:800;flex-shrink:0}
+.board-foot{display:flex;justify-content:space-between;gap:12px;margin-top:17px;color:var(--muted);font-size:11px}
+.section{padding:28px 0 85px}
+.section-head{text-align:center;max-width:640px;margin:0 auto 36px}
+.section-head p{color:var(--muted);margin-top:12px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:white;border:1px solid var(--line);border-radius:17px;padding:27px}
+.num{font-size:12px;color:var(--accent);font-weight:850;margin-bottom:22px}
+.card h3{font-size:19px;margin-bottom:9px}
+.card p{font-size:14px;color:var(--muted)}
+.workflow{background:#1C1917;color:white;border-radius:24px;padding:43px;margin-bottom:80px}
+.workflow .tag{color:#FDBA74}
+.workflow .section-head p{color:#D6D3D1}
+.workflow-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;margin-top:30px}
+.workflow-grid h3{font-size:17px;margin:12px 0 7px}
+.workflow-grid p{font-size:14px;color:#D6D3D1}
+.step-icon{width:40px;height:40px;display:grid;place-items:center;border-radius:12px;background:#3A2B23;color:#FDBA74;font-weight:850}
+.cta{background:#E8DCCB;border-radius:24px;padding:43px;display:flex;align-items:center;justify-content:space-between;gap:28px;margin-bottom:80px}
+.cta p{color:var(--muted);font-size:15px;max-width:550px;margin-top:12px}
+.cta .btn{white-space:nowrap}
+footer{border-top:1px solid var(--line);padding:26px 0 35px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:15px}
+@media(max-width:760px){
+.wrap{padding:0 20px}
+.links{display:none}
+.hero{grid-template-columns:1fr;gap:35px;padding:45px 0 65px}
+.grid,.workflow-grid{grid-template-columns:1fr}
+.preview{transform:none;padding:14px}
+.workflow{padding:27px}
+.cta{padding:28px;align-items:flex-start;flex-direction:column}
+footer{flex-direction:column}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+<a class="logo" href="#">TaskFlow<span>.</span></a>
+<div class="links">
+<a href="#features">Features</a>
+<a href="#workflow">How It Works</a>
+<a href="#about">About</a>
+</div>
+<a class="btn" href="#features">Explore Features</a>
+</nav>
+
+<section class="hero">
+<div>
+<span class="tag">A Better Way to Work</span>
+<h1>Less busywork. More meaningful progress.</h1>
+<p class="lede">TaskFlow Pro is a fictional productivity platform concept designed to help teams organize projects, manage daily tasks, and keep priorities clear in one place.</p>
+<div class="actions">
+<a class="btn" href="#features">Discover TaskFlow</a>
+<a class="btn btn--ghost" href="#workflow">See How It Works</a>
+</div>
+<p class="note">A portfolio concept demonstrating business website design.</p>
+</div>
+<div class="preview">
+<div class="board">
+<div class="board-head"><strong>Weekly Project Overview</strong><span class="pill">IN PROGRESS</span></div>
+<div style="display:flex;justify-content:space-between;font-size:11px;color:#78716C;margin-bottom:8px"><span>Project completion</span><strong style="color:#1C1917">72%</strong></div>
+<div class="progress"><span></span></div>
+<div class="task"><div class="check done">✓</div><div><strong>Plan weekly priorities</strong><small>Completed · Monday</small></div><div class="avatar">JD</div></div>
+<div class="task"><div class="check done">✓</div><div><strong>Review project notes</strong><small>Completed · Tuesday</small></div><div class="avatar" style="background:#D1FAE5">AM</div></div>
+<div class="task"><div class="check"></div><div><strong>Prepare weekly report</strong><small>Due Thursday</small></div><div class="avatar" style="background:#DBEAFE">KL</div></div>
+<div class="task"><div class="check"></div><div><strong>Review next steps</strong><small>Due Friday</small></div><div class="avatar" style="background:#F3E8FF">TS</div></div>
+<div class="board-foot"><span>4 sample tasks</span><span>Demo dashboard · Not interactive</span></div>
+</div>
+</div>
+</section>
+
+<section class="section" id="features">
+<div class="section-head">
+<span class="tag">Core Features</span>
+<h2>Everything organized around your goals</h2>
+<p>Simple concepts for keeping projects visible, responsibilities clear, and work moving forward.</p>
+</div>
+<div class="grid">
+<div class="card"><div class="num">FEATURE 01</div><h3>Task Management</h3><p>Break larger projects into clear action items, set priorities, and keep track of what needs attention.</p></div>
+<div class="card"><div class="num">FEATURE 02</div><h3>Project Planning</h3><p>Organize project stages, outline responsibilities, and give team members a shared view of progress.</p></div>
+<div class="card"><div class="num">FEATURE 03</div><h3>Progress Tracking</h3><p>Use clear status indicators and project summaries to understand what is complete and what comes next.</p></div>
+<div class="card"><div class="num">FEATURE 04</div><h3>Team Coordination</h3><p>Make responsibilities easier to understand and keep communication focused on shared priorities.</p></div>
+<div class="card"><div class="num">FEATURE 05</div><h3>Deadline Awareness</h3><p>Keep important due dates visible so teams can plan their time and reduce last-minute surprises.</p></div>
+<div class="card"><div class="num">FEATURE 06</div><h3>Daily Planning</h3><p>Build a practical daily task list that helps individuals stay focused without losing sight of larger goals.</p></div>
+</div>
+</section>
+
+<section class="workflow" id="workflow">
+<div class="section-head">
+<span class="tag">The Workflow</span>
+<h2>From scattered tasks to clear next steps</h2>
+<p>A simple three-part approach for turning plans into progress.</p>
+</div>
+<div class="workflow-grid">
+<div><div class="step-icon">01</div><h3>Plan the Work</h3><p>Define goals, break projects into tasks, and decide which priorities matter most.</p></div>
+<div><div class="step-icon">02</div><h3>Organize Together</h3><p>Clarify responsibilities, track progress, and keep project information easy to find.</p></div>
+<div><div class="step-icon">03</div><h3>Review Progress</h3><p>Check completed work, identify blockers, and agree on the next actions.</p></div>
+</div>
+</section>
+
+<section class="cta" id="about">
+<div>
+<span class="tag">About This Concept</span>
+<h2>Make room for your best work.</h2>
+<p>TaskFlow Pro is a fictional product concept created for a portfolio sample. The page demonstrates layout design, product messaging, feature presentation, and responsive web styling. No actual project management service is offered.</p>
+</div>
+<a class="btn" href="mailto:hello@example.com?subject=TaskFlow%20Portfolio%20Inquiry">Contact Example</a>
+</section>
+
+<footer>
+<span>© 2026 TaskFlow Pro. Fictional portfolio project.</span>
+<span>Product concept · Productivity · Project management</span>
+</footer>
+</div>
+</body>
+</html>

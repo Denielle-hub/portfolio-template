@@ -1,49 +1,148 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Placeholder Website 06</title><style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:#0B1F17;color:#ECFDF5;line-height:1.5}
-a{color:inherit;text-decoration:none}
-.wrap{max-width:1120px;margin:0 auto;padding:0 32px}
-nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
-.logo{font-weight:800;letter-spacing:-.02em;font-size:18px}
-.logo b{color:#4ADE80}
-.links{display:flex;gap:28px;font-size:14px;color:#86B59C}
-.btn{display:inline-block;background:#4ADE80;color:#0B1F17;font-weight:700;font-size:15px;padding:14px 26px;border-radius:999px}
-.btn--ghost{background:transparent;color:#ECFDF5;border:1px solid #86B59C66}
-.tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#4ADE80;margin-bottom:18px}
-h1{font-size:clamp(40px,6vw,72px);line-height:1.02;letter-spacing:-.035em;font-weight:800;max-width:14ch}
-h2{font-size:clamp(28px,3.4vw,40px);letter-spacing:-.02em;line-height:1.1;margin-bottom:14px}
-p.lede{font-size:18px;color:#86B59C;max-width:46ch;margin:22px 0 32px}
-.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;padding:56px 0 80px}
-.shot{aspect-ratio:4/5;border-radius:24px;background:
-  repeating-linear-gradient(135deg,#12301F 0 14px,#0B1F17 14px 28px);
-  border:1px solid #86B59C33;display:grid;place-items:center;text-align:center;padding:24px;color:#86B59C;font-size:14px}
-.shot strong{display:block;color:#ECFDF5;font-size:16px;margin-bottom:6px}
-.row{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:24px 0 80px}
-.card{background:#12301F;border:1px solid #86B59C22;border-radius:20px;padding:28px}
-.card .n{font-size:13px;font-weight:700;color:#4ADE80;margin-bottom:26px}
-.card h3{font-size:20px;margin-bottom:8px}
-.card p{color:#86B59C;font-size:15px}
-.band{background:#12301F;border-radius:28px;padding:56px;display:grid;grid-template-columns:1fr auto;gap:32px;align-items:center;margin-bottom:80px}
-.quote{font-size:24px;line-height:1.35;max-width:40ch}
-.who{margin-top:16px;color:#86B59C;font-size:14px}
-.form{background:#12301F;border-radius:24px;padding:32px;display:grid;gap:12px}
-.field{height:48px;border-radius:12px;border:1px solid #86B59C44;padding:0 16px;display:flex;align-items:center;color:#86B59C;font-size:14px}
-footer{border-top:1px solid #86B59C33;padding:28px 0 40px;color:#86B59C;font-size:13px;display:flex;justify-content:space-between}
-@media (max-width:760px){.hero,.band{grid-template-columns:1fr}.row{grid-template-columns:1fr}.links{display:none}}
-</style></head>
-<body><div class="wrap">
-<nav><span class="logo">Placeholder<b>.</b></span>
-<span class="links"><a href="#">PLACEHOLDER</a><a href="#">PLACEHOLDER</a><a href="#">PLACEHOLDER</a></span>
-<a class="btn" href="#">PLACEHOLDER</a></nav>
 
-<section class="hero"><div>
-<span class="tag">PLACEHOLDER Website 06</span>
-<h1>Tell me what to put here.</h1>
-<p class="lede">PLACEHOLDER - swap this page for a website you built. One line on who it was for and what it does.</p>
-<a class="btn" href="#">PLACEHOLDER CTA</a> <a class="btn btn--ghost" href="#">Secondary</a>
-</div><div class="shot"><div><strong>PLACEHOLDER IMAGE</strong>Your hero photo or product shot</div></div></section><div class="row"><div class="card"><div class="n">01</div><h3>PLACEHOLDER</h3><p>Tell me what to put here - a benefit, a step, or a feature.</p></div><div class="card"><div class="n">02</div><h3>PLACEHOLDER</h3><p>Tell me what to put here - a benefit, a step, or a feature.</p></div><div class="card"><div class="n">03</div><h3>PLACEHOLDER</h3><p>Tell me what to put here - a benefit, a step, or a feature.</p></div></div><div class="band"><div><p class="quote">"PLACEHOLDER - a short testimonial from the client this page was built for."</p>
-<p class="who">PLACEHOLDER NAME, PLACEHOLDER COMPANY</p></div><a class="btn" href="#">PLACEHOLDER</a></div>
-<footer><span>&copy; PLACEHOLDER Website 06</span><span>Replace this file: public/samples/</span></footer>
-</div></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GreenDesk Solutions | Smarter Business Support</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0B1F17;--panel:#12301F;--text:#ECFDF5;--muted:#9CC4AC;--accent:#4ADE80;--line:#28523A}
+body{font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 28px}
+nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+.logo{font-size:22px;font-weight:850;letter-spacing:-.8px}
+.logo span{color:var(--accent)}
+.links{display:flex;gap:25px;color:var(--muted);font-size:14px}
+.btn{display:inline-block;background:var(--accent);color:#0B1F17;font-weight:750;font-size:14px;padding:13px 22px;border-radius:10px}
+.btn--ghost{background:transparent;color:var(--text);border:1px solid #86B59C77}
+.tag{display:inline-block;color:var(--accent);font-size:11px;font-weight:850;letter-spacing:1.7px;text-transform:uppercase;margin-bottom:18px}
+h1{font-size:clamp(40px,6vw,68px);line-height:1.06;letter-spacing:-2.4px;max-width:650px}
+h2{font-size:clamp(28px,3.5vw,42px);line-height:1.15;letter-spacing:-1.2px}
+.lede{font-size:17px;color:var(--muted);max-width:490px;margin:22px 0 30px}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;padding:65px 0 88px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.visual{background:linear-gradient(145deg,#153B26,#10291B);border:1px solid var(--line);border-radius:25px;padding:25px;min-height:385px;display:flex;align-items:center;justify-content:center}
+.dashboard{width:100%;max-width:350px;background:#0B1F17;border:1px solid #28523A;border-radius:17px;padding:23px}
+.dash-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:23px;font-size:14px;font-weight:800}
+.status{font-size:10px;color:var(--accent);background:#163D27;padding:5px 9px;border-radius:999px}
+.metric{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-bottom:17px}
+.metric-box{background:#12301F;border:1px solid #28523A;border-radius:12px;padding:15px}
+.metric-box small{display:block;color:var(--muted);font-size:10px}
+.metric-box strong{display:block;font-size:23px;margin-top:4px}
+.task{display:flex;align-items:center;gap:11px;padding:13px 0;border-top:1px solid #28523A}
+.check{width:24px;height:24px;border-radius:7px;background:#1A482C;color:var(--accent);display:grid;place-items:center;font-size:13px;flex-shrink:0}
+.task strong{display:block;font-size:12px}
+.task small{font-size:10px;color:var(--muted)}
+.section{padding:28px 0 85px}
+.section-head{text-align:center;max-width:650px;margin:0 auto 38px}
+.section-head p{color:var(--muted);margin-top:12px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:19px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:27px}
+.num{color:var(--accent);font-size:12px;font-weight:850;margin-bottom:22px}
+.card h3{font-size:19px;margin-bottom:9px}
+.card p{font-size:14px;color:var(--muted)}
+.process{background:#10291B;border:1px solid var(--line);border-radius:24px;padding:42px;margin-bottom:80px}
+.process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:27px;margin-top:32px}
+.step-num{color:var(--accent);font-size:12px;font-weight:850;letter-spacing:1px}
+.process h3{font-size:17px;margin:11px 0 8px}
+.process p{color:var(--muted);font-size:14px}
+.band{background:#163D27;border:1px solid #28523A;border-radius:24px;padding:43px;display:flex;align-items:center;justify-content:space-between;gap:28px;margin-bottom:80px}
+.band p{color:var(--muted);font-size:15px;max-width:590px;margin-top:12px}
+.band .btn{white-space:nowrap}
+footer{border-top:1px solid var(--line);padding:26px 0 35px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:15px}
+@media(max-width:760px){
+.wrap{padding:0 20px}
+.links{display:none}
+.hero{grid-template-columns:1fr;gap:35px;padding:45px 0 65px}
+.grid,.process-grid{grid-template-columns:1fr}
+.visual{min-height:330px;padding:15px}
+.process{padding:27px}
+.band{padding:28px;align-items:flex-start;flex-direction:column}
+footer{flex-direction:column}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+<a class="logo" href="#">GreenDesk<span>.</span></a>
+<div class="links">
+<a href="#services">Services</a>
+<a href="#approach">Our Approach</a>
+<a href="#about">About</a>
+</div>
+<a class="btn" href="#contact">Let's Connect</a>
+</nav>
+
+<section class="hero">
+<div>
+<span class="tag">Business Support, Made Simpler</span>
+<h1>Build a better business, one task at a time.</h1>
+<p class="lede">GreenDesk Solutions is a fictional remote business support brand concept helping small teams imagine a more organized approach to customer service, administration, and everyday operations.</p>
+<div class="actions">
+<a class="btn" href="#services">Explore Services</a>
+<a class="btn btn--ghost" href="#approach">Our Approach</a>
+</div>
+</div>
+<div class="visual">
+<div class="dashboard">
+<div class="dash-head"><span>Weekly Work Planner</span><span class="status">ON TRACK</span></div>
+<div class="metric">
+<div class="metric-box"><small>Tasks Completed</small><strong>12</strong></div>
+<div class="metric-box"><small>Tasks Remaining</small><strong>4</strong></div>
+</div>
+<div class="task"><div class="check">✓</div><div><strong>Respond to customer inquiries</strong><small>Completed</small></div></div>
+<div class="task"><div class="check">✓</div><div><strong>Update business records</strong><small>Completed</small></div></div>
+<div class="task"><div class="check">•</div><div><strong>Review pending requests</strong><small>In progress</small></div></div>
+<div class="task"><div class="check">•</div><div><strong>Prepare weekly summary</strong><small>Upcoming</small></div></div>
+</div>
+</div>
+</section>
+
+<section class="section" id="services">
+<div class="section-head">
+<span class="tag">What We Support</span>
+<h2>Practical help for everyday business needs</h2>
+<p>Explore a range of support services designed to keep customer communication, information, and daily tasks organized.</p>
+</div>
+<div class="grid">
+<div class="card"><div class="num">SERVICE 01</div><h3>Customer Experience</h3><p>Help customers get clear answers, understand next steps, and feel supported throughout their service experience.</p></div>
+<div class="card"><div class="num">SERVICE 02</div><h3>Virtual Assistance</h3><p>Assist with routine administrative tasks, document organization, scheduling support, and daily business priorities.</p></div>
+<div class="card"><div class="num">SERVICE 03</div><h3>Technical Guidance</h3><p>Help users navigate digital tools, troubleshoot common issues, and identify when an issue needs escalation.</p></div>
+<div class="card"><div class="num">SERVICE 04</div><h3>Data and Records</h3><p>Maintain organized information, enter data carefully, and support accurate record keeping.</p></div>
+<div class="card"><div class="num">SERVICE 05</div><h3>Communication Support</h3><p>Assist with professional email and chat responses while keeping language clear, friendly, and consistent.</p></div>
+<div class="card"><div class="num">SERVICE 06</div><h3>Workflow Organization</h3><p>Track open tasks, clarify priorities, and document progress so teams can coordinate their work more effectively.</p></div>
+</div>
+</section>
+
+<section class="process" id="approach">
+<div class="section-head">
+<span class="tag">Our Approach</span>
+<h2>Small steps. Stronger workflows.</h2>
+<p>Good business support starts with understanding what matters and keeping the work moving.</p>
+</div>
+<div class="process-grid">
+<div><div class="step-num">01 / UNDERSTAND</div><h3>Listen and Clarify</h3><p>Understand the task, confirm expectations, and gather the information needed to get started.</p></div>
+<div><div class="step-num">02 / ORGANIZE</div><h3>Work with Care</h3><p>Follow the right process, prioritize responsibilities, and keep records accurate and organized.</p></div>
+<div><div class="step-num">03 / IMPROVE</div><h3>Review and Communicate</h3><p>Share progress, flag unresolved issues, and identify practical next steps when needed.</p></div>
+</div>
+</section>
+
+<section class="band" id="about">
+<div>
+<span class="tag">About GreenDesk</span>
+<h2>More clarity in your workday.</h2>
+<p>GreenDesk Solutions is a fictional portfolio project created to demonstrate responsive website design, business messaging, and remote support service presentation. It is not an operating business and does not currently provide services.</p>
+</div>
+<a class="btn" id="contact" href="mailto:hello@example.com?subject=GreenDesk%20Portfolio%20Inquiry">Contact Example</a>
+</section>
+
+<footer>
+<span>© 2026 GreenDesk Solutions. Fictional portfolio project.</span>
+<span>Remote support · Administration · Customer experience</span>
+</footer>
+</div>
+</body>
+</html>

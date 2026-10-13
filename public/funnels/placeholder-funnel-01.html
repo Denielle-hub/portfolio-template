@@ -1,49 +1,130 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Placeholder Funnel 01</title><style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:#0F172A;color:#F8FAFC;line-height:1.5}
-a{color:inherit;text-decoration:none}
-.wrap{max-width:1120px;margin:0 auto;padding:0 32px}
-nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
-.logo{font-weight:800;letter-spacing:-.02em;font-size:18px}
-.logo b{color:#38BDF8}
-.links{display:flex;gap:28px;font-size:14px;color:#94A3B8}
-.btn{display:inline-block;background:#38BDF8;color:#0F172A;font-weight:700;font-size:15px;padding:14px 26px;border-radius:999px}
-.btn--ghost{background:transparent;color:#F8FAFC;border:1px solid #94A3B866}
-.tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#38BDF8;margin-bottom:18px}
-h1{font-size:clamp(40px,6vw,72px);line-height:1.02;letter-spacing:-.035em;font-weight:800;max-width:14ch}
-h2{font-size:clamp(28px,3.4vw,40px);letter-spacing:-.02em;line-height:1.1;margin-bottom:14px}
-p.lede{font-size:18px;color:#94A3B8;max-width:46ch;margin:22px 0 32px}
-.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;padding:56px 0 80px}
-.shot{aspect-ratio:4/5;border-radius:24px;background:
-  repeating-linear-gradient(135deg,#1E293B 0 14px,#0F172A 14px 28px);
-  border:1px solid #94A3B833;display:grid;place-items:center;text-align:center;padding:24px;color:#94A3B8;font-size:14px}
-.shot strong{display:block;color:#F8FAFC;font-size:16px;margin-bottom:6px}
-.row{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:24px 0 80px}
-.card{background:#1E293B;border:1px solid #94A3B822;border-radius:20px;padding:28px}
-.card .n{font-size:13px;font-weight:700;color:#38BDF8;margin-bottom:26px}
-.card h3{font-size:20px;margin-bottom:8px}
-.card p{color:#94A3B8;font-size:15px}
-.band{background:#1E293B;border-radius:28px;padding:56px;display:grid;grid-template-columns:1fr auto;gap:32px;align-items:center;margin-bottom:80px}
-.quote{font-size:24px;line-height:1.35;max-width:40ch}
-.who{margin-top:16px;color:#94A3B8;font-size:14px}
-.form{background:#1E293B;border-radius:24px;padding:32px;display:grid;gap:12px}
-.field{height:48px;border-radius:12px;border:1px solid #94A3B844;padding:0 16px;display:flex;align-items:center;color:#94A3B8;font-size:14px}
-footer{border-top:1px solid #94A3B833;padding:28px 0 40px;color:#94A3B8;font-size:13px;display:flex;justify-content:space-between}
-@media (max-width:760px){.hero,.band{grid-template-columns:1fr}.row{grid-template-columns:1fr}.links{display:none}}
-</style></head>
-<body><div class="wrap">
-<nav><span class="logo">Placeholder<b>.</b></span>
-<span class="links"><a href="#">PLACEHOLDER</a><a href="#">PLACEHOLDER</a><a href="#">PLACEHOLDER</a></span>
-<a class="btn" href="#">PLACEHOLDER</a></nav>
 
-<section class="hero"><div>
-<span class="tag">PLACEHOLDER Funnel 01</span>
-<h1>Tell me what to put here.</h1>
-<p class="lede">PLACEHOLDER - swap this page for a funnel you built. One line on who it was for and what it does.</p>
-<a class="btn" href="#">PLACEHOLDER CTA</a> <a class="btn btn--ghost" href="#">Secondary</a>
-</div><div class="form"><strong>PLACEHOLDER FORM</strong>
-<div class="field">Name</div><div class="field">Email</div><div class="field">Phone</div><a class="btn" href="#">Submit</a></div></section><div class="row"><div class="card"><div class="n">01</div><h3>PLACEHOLDER</h3><p>Tell me what to put here - a benefit, a step, or a feature.</p></div><div class="card"><div class="n">02</div><h3>PLACEHOLDER</h3><p>Tell me what to put here - a benefit, a step, or a feature.</p></div><div class="card"><div class="n">03</div><h3>PLACEHOLDER</h3><p>Tell me what to put here - a benefit, a step, or a feature.</p></div></div>
-<footer><span>&copy; PLACEHOLDER Funnel 01</span><span>Replace this file: public/funnels/</span></footer>
-</div></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Customer Support Request | Sample Project</title>
+<meta name="description" content="A fictional customer support request page created as a portfolio demonstration.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:#0F172A;color:#F8FAFC;line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 28px}
+nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:24px 0}
+.logo{font-weight:800;font-size:21px;letter-spacing:-.03em}
+.logo span,.tag{color:#38BDF8}
+.links{display:flex;gap:24px;font-size:14px;color:#CBD5E1}
+.btn{display:inline-block;background:#38BDF8;color:#0F172A;font-weight:750;font-size:14px;padding:13px 21px;border-radius:999px;border:0;cursor:pointer}
+.btn--ghost{background:transparent;color:#F8FAFC;border:1px solid #64748B}
+.tag{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:18px}
+h1{font-size:clamp(40px,6vw,70px);line-height:1.05;letter-spacing:-.04em;max-width:14ch}
+h2{font-size:clamp(28px,4vw,42px);line-height:1.15;letter-spacing:-.03em;margin-bottom:14px}
+h3{font-size:20px;margin-bottom:9px}
+p.lede{font-size:18px;color:#CBD5E1;max-width:53ch;margin:22px 0 30px}
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center;padding:55px 0 85px}
+.panel,.card{background:#1E293B;border:1px solid #334155;border-radius:22px;padding:28px}
+.panel{display:grid;gap:15px}
+.panel p,.card p,.muted{color:#CBD5E1;font-size:14px}
+.field-label{font-size:13px;font-weight:650;color:#E2E8F0}
+input,textarea,select{width:100%;padding:13px 14px;border-radius:11px;border:1px solid #475569;background:#0F172A;color:#F8FAFC;font:inherit;font-size:14px}
+textarea{min-height:105px;resize:vertical}
+input:focus,textarea:focus,select:focus{outline:2px solid #38BDF8;outline-offset:2px}
+.notice{font-size:12px;color:#94A3B8}
+section.content{padding:30px 0 70px}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:28px}
+.card .n{font-size:12px;font-weight:800;color:#38BDF8;letter-spacing:.1em;margin-bottom:20px}
+.card p{line-height:1.7}
+.band{background:#1E293B;border:1px solid #334155;border-radius:25px;padding:38px;margin:0 0 75px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+.band blockquote{font-size:clamp(20px,3vw,28px);line-height:1.4;max-width:650px}
+footer{border-top:1px solid #334155;padding:25px 0 35px;display:flex;justify-content:space-between;gap:15px;color:#94A3B8;font-size:12px}
+@media(max-width:760px){.wrap{padding:0 18px}nav{flex-wrap:wrap}.links{display:none}.hero{grid-template-columns:1fr;gap:30px;padding:35px 0 60px}.cards{grid-template-columns:1fr}.band{align-items:flex-start;flex-direction:column;padding:26px}.panel,.card{padding:22px}footer{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+  <a class="logo" href="#">Support<span>.</span></a>
+  <div class="links">
+    <a href="#process">How it works</a>
+    <a href="#principles">Our approach</a>
+    <a href="#request">Contact</a>
+  </div>
+  <a class="btn" href="#request">Request support</a>
+</nav>
+
+<main>
+<section class="hero">
+  <div>
+    <span class="tag">Portfolio Sample · Demonstration Only</span>
+    <h1>Let's make getting help easier.</h1>
+    <p class="lede">A thoughtful support request experience helps people explain a problem, understand the next step, and feel heard. This fictional page demonstrates a simple customer support workflow.</p>
+    <a class="btn" href="#request">View request form</a>
+    <a class="btn btn--ghost" href="#process">Explore the process</a>
+  </div>
+
+  <form class="panel" id="request" onsubmit="event.preventDefault();document.getElementById('form-message').hidden=false;">
+    <span class="tag">Example Request Form</span>
+    <h2 style="font-size:27px">How can we help?</h2>
+    <p>Use this sample layout to see how a support request might be organized.</p>
+    <label class="field-label" for="name">Your name</label>
+    <input id="name" name="name" placeholder="Enter your name" autocomplete="name">
+    <label class="field-label" for="email">Email address</label>
+    <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email">
+    <label class="field-label" for="topic">What do you need help with?</label>
+    <select id="topic" name="topic">
+      <option>Choose a topic</option>
+      <option>Account access</option>
+      <option>Technical issue</option>
+      <option>Payment question</option>
+      <option>General inquiry</option>
+    </select>
+    <label class="field-label" for="details">Describe the issue</label>
+    <textarea id="details" name="details" placeholder="Briefly explain what's happening"></textarea>
+    <button class="btn" type="submit">Preview submission</button>
+    <p class="notice">Demonstration only. Do not enter real personal or financial information.</p>
+    <p id="form-message" class="notice" role="status" hidden>This is a static portfolio demo. No information has been sent or saved.</p>
+  </form>
+</section>
+
+<section class="content" id="process">
+  <span class="tag">A Simple Process</span>
+  <h2>Clear steps. Better communication.</h2>
+  <p class="lede">A well-organized support page makes it easier to explain concerns and understand what happens next.</p>
+  <div class="cards">
+    <article class="card">
+      <div class="n">01 / EXPLAIN</div>
+      <h3>Describe the concern</h3>
+      <p>Give customers a straightforward way to explain their question or technical issue in their own words.</p>
+    </article>
+    <article class="card">
+      <div class="n">02 / UNDERSTAND</div>
+      <h3>Organize the details</h3>
+      <p>Use clear fields and relevant categories to make the request easier to review and understand.</p>
+    </article>
+    <article class="card">
+      <div class="n">03 / FOLLOW THROUGH</div>
+      <h3>Explain the next step</h3>
+      <p>Provide helpful guidance and keep communication focused on the customer's needs.</p>
+    </article>
+  </div>
+</section>
+
+<section class="band" id="principles">
+  <div>
+    <span class="tag">Support Philosophy</span>
+    <blockquote>“Good support starts with listening, clear explanations, and careful follow-through.”</blockquote>
+    <p class="muted" style="margin-top:12px">Original sample copy — not a customer testimonial.</p>
+  </div>
+  <a class="btn" href="#request">Explore the form</a>
+</section>
+</main>
+
+<footer>
+  <span>Sample Project — Demonstration Only</span>
+  <span>Customer Support Request Page</span>
+</footer>
+</div>
+</body>
+</html>
